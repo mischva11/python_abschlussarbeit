@@ -140,7 +140,7 @@ model.add(GRU(units=256,
 
 # model.add(Dense(num_y_signals, activation='sigmoid'))
 
-#linear statt sigmoid
+#linear instaed of sigmoid
 from tensorflow.python.keras.initializers import RandomUniform
 
     # Maybe use lower init-ranges.
